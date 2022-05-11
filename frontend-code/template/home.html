@@ -1,0 +1,22 @@
+<html>
+    <style>
+        body{
+            font-size: 15pt;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+
+    <body>
+    <h1>Please input the customer_id:</h1>
+
+
+    <form method="POST" action="/result">
+        <p>Enter the Customer_ID: <input type="text" name="customer_id" pattern="[[[a-z][^a-z0-9\\s\\(\\)\\[\\]\\{\\}\\\\^\\$\\|\\?\\*\\+\\.\\<\\>\\-\\=\\!\\_]]"
+            title="Enter the customer ID"> 
+            Enter the Price: <input type="text" name="Price" pattern="[[[a-z][^a-z0-9\\s\\(\\)\\[\\]\\{\\}\\\\^\\$\\|\\?\\*\\+\\.\\<\\>\\-\\=\\!\\_]]"
+            title="Enter the total Price">
+            <input type="submit" value="Seek"></p>
+    </form>
+
+    </body>
+</html>
