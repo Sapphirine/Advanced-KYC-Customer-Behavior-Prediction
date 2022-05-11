@@ -1,6 +1,8 @@
 # Advanced-KYC-Customer-Behavior-Prediction
-Course Project\n
-ProjectID: 202205-13\n
+Course Project
+
+ProjectID: 202205-13
+
 Members: Jingchao Hu(jh4312) and Peihan Liu(pl2804)
 
 This is the code of course project of ELEN E6895:Customer Behavior Prediction.
